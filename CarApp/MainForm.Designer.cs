@@ -45,12 +45,10 @@
             this.rbCredit = new System.Windows.Forms.RadioButton();
             this.rbCheck = new System.Windows.Forms.RadioButton();
             this.rbCash = new System.Windows.Forms.RadioButton();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lbTotal = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbDiscount = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnCheckD = new System.Windows.Forms.Button();
             this.btnTotalPrice = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbGallery)).BeginInit();
@@ -261,15 +259,6 @@
             this.rbCash.Text = "Cash";
             this.rbCash.UseVisualStyleBackColor = true;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "label3";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -310,15 +299,6 @@
             this.lbDiscount.TabIndex = 8;
             this.lbDiscount.Text = "0.000$";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // btnCheckD
             // 
             this.btnCheckD.Location = new System.Drawing.Point(194, 548);
@@ -348,10 +328,8 @@
             this.ClientSize = new System.Drawing.Size(929, 608);
             this.Controls.Add(this.btnTotalPrice);
             this.Controls.Add(this.btnCheckD);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbTotal);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.lbDiscount);
             this.Controls.Add(this.lbExtras);
@@ -395,12 +373,10 @@
         private System.Windows.Forms.RadioButton rbCredit;
         private System.Windows.Forms.RadioButton rbCheck;
         private System.Windows.Forms.RadioButton rbCash;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbTotal;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbDiscount;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnCheckD;
         private System.Windows.Forms.Button btnTotalPrice;
     }
